@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&display=swap');
+
+html,
+body {
+    background: #222222;
+}
+
+#outer {
+    position: absolute;
+    background: #222222;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#particles-js {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#home {
+    z-index: 1;
+    color: whitesmoke;
+    margin-top: 10%;
+    position: relative;
+    background-color: transparent;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social a {
+    color: whitesmoke;
+    padding: 20px 10px 10px;
+    border-radius: 6px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.social a:hover {
+    color: #222222;
+    background: whitesmoke;
+}
+
+#about {
+    color: #222222;
+    background: #f5f6fa;
+    margin-top: 14.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#about h5 {
+    font-weight: 300;
+}
+
+#projects {
+    padding-top: 50px;
+    color: #222222;
+    background: #dff9fb;
+    background-image: url("./bg-intro-desktop.png");
+}
+
+.col {
+    padding: 20px 72px;
+}
+
+.col a {
+    text-decoration: none;
+    text-align: center;
+    color: #1b1b1b;
+}
+
+.button {
+    border: 2px solid #1b1b1b;
+    margin: 5px 50px;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #1b1b1b;
+    color: whitesmoke;
+}
+
+#resume {
+    padding-top: 50px;
+    color: white;
+    background-image: url("./bg-intro-desktop.png");
+    background-color: #1b1b1b;
+}
+
+#resume .btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#resume .btn:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+
+#contact {
+    padding: 25px 0px;
+    color: #1b1b1b;
+    background-color: whitesmoke;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+#footer {
+    padding: 20px 0px;
+    color: whitesmoke;
+}
+
+.progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 10px 0;
+}
+
+.progress {
+    height: 20px;
+    line-height: 15px;
+    border-radius: 5px;
+    background: #f0f0f0;
+    margin-bottom: 30px;
+    box-shadow: none;
+    overflow: visible;
+}
+
+.progress-bar {
+    position: relative;
+    border-radius: 0;
+    opacity: 0;
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
